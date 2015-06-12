@@ -49,6 +49,22 @@ def profile(first, last, *ages, **items):
     print ages
     print items
 
-profile('osama', 'mohamed', 42, 3, 5, 6, bacon=4, saus=64 )
+profile('osama', 'mohamed', 42, 3, 5, 6, bacon=4, saus=64)
+
+
+
+
+def example(a, b, c):
+    return a + b * c
+
+tuna = (5, 7, 3)
+print example(*tuna)
+
+def example2(**this):
+    print this
+
+bacon = {'mom': 32, 'dad': 54}
+
+example2(**bacon)
 
 
