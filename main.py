@@ -28,6 +28,7 @@ def main():
     print(cop)
 
     mythread = thread
+    mythread2 = thread
 
     def printDate():
         print(datetime.date.today())
@@ -43,10 +44,11 @@ def main():
 
     # Create two threads as follows
     try:
-       mythread.start_new_thread(print_time, ("Thread-1", 2, ))
-       mythread.start_new_thread(print_time, ("Thread-2", 4, ))
+        mythread.start_new_thread(print_time, ("Thread-1", 2, ))
+        mythread2.start_new_thread(print_time, ("Thread-2", 4, ))
+
     except:
-       print "Error: unable to start thread"
+        print "Error: unable to start thread"
 
     while 1:
        pass
