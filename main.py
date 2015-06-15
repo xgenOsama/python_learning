@@ -8,6 +8,7 @@ def main():
     )
     print 'hello i am osama'
     os.system('ls')
+    os.system('ping google.com ')
     persons = [{'name': 'osama', 'age': 13}, {'name': 'mohamed', 'age': 16}]
     print(persons[0]['name'])
     print(persons[0]['age'])
