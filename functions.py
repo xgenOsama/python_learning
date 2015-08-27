@@ -6,10 +6,10 @@ def whatsup(x):
 
 print whatsup('osama')
 
-def plusten(y):
+def plusTen(y):
     return y + 10
 
-print plusten(1)
+print plusTen(1)
 
 def name(first, last):
     print '%s %s' % (first, last)
