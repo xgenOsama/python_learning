@@ -9,7 +9,7 @@ fromaddr = 'xgen.osama@gmail.com'
 toaddr = 'xgen.osama@gmail.com'
 text = 'text message sent from python'
 username = 'xgenOsama'
-password = 'javag33kprohunter'
+password = '###############'
 
 msg = MIMEMultipart()
 msg['From'] = fromaddr
