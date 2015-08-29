@@ -10,6 +10,7 @@ ptext.feed(data)
 links = []
 links = ptext.anchorlist
 for link in links:
+
     if re.search('http', link) != None:
         print link
         website = urllib.urlopen(link)
